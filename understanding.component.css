@@ -1,0 +1,53 @@
+.giftolexia_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giftolexia_logo .giftolexia_image{
+    width: 100px;
+    margin: 20px 0;
+}
+
+.understanding-difficulties{
+    margin: 10px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: roboto;
+}
+
+.understanding-difficulties .strong-paragraph{
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.understanding-difficulties .medium-paragraph{
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+table ul li{
+    list-style-type: square;
+}
+
+ul li{
+    list-style-type: square;
+}

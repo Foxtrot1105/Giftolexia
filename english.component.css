@@ -1,0 +1,28 @@
+.giftolexia_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giftolexia_logo .giftolexia_image{
+    width: 100px;
+    margin: 20px 0;
+}
+
+.navigation{
+    margin: 40px;
+}
+
+.navigation .navigation_buttons{
+    background: gray;
+    cursor: pointer;
+}
+
+.navigation .scroll_content{
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .scroll_content .toggle{
+    display: none;
+}

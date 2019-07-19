@@ -1,0 +1,23 @@
+<div fxFlex fxLayout="column" fxLayoutAlign="center" class="giftolexia_logo">
+    <div fxLayoutAlign="center" class="Image_div">
+        <img routerLink="" class="giftolexia_image" src="../../../assets/Giftolexia-logo.jpg" alt="Giftolxia logo">
+    </div>
+    <div fxFlex="0 0 60%" fxLayout fxLayoutAlign="center" class="navigation">
+        <div (click)="scroll_left()" fxLayout="column" fxLayoutAlign="center" class="navigation_buttons">
+            <i class="material-icons">arrow_back_ios</i>
+        </div>
+        <div fxFlex="300px" fxLayout="column" class="scroll_content">
+            <a [routerLink]="['/understanding']"><img id="img_1" class="scroll_images" src="../../../assets/content-1.png"></a>
+            <img id="img_2" class="toggle scroll_images" src="../../../assets/partner-logos/nsrcel_logo.jpg">
+            <img id="img_3" class="toggle scroll_images" src="../../../assets/partner-logos/taxshe_logo.png">
+        </div>
+        <div (click)="scroll_right()" fxLayout="column" fxLayoutAlign="center" class="navigation_buttons">
+            <i class="material-icons">arrow_forward_ios</i>
+        </div>
+    </div>
+    <!-- <div fxLayoutAlign="center" class="paragraph">
+            <div ngLayout="column" class="navigation_buttons">
+                <i class="material-icons">arrow_back_ios</i>
+            </div>
+    </div> -->
+</div>
